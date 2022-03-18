@@ -141,7 +141,7 @@ a {
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #940202 !important;
+  color: #940202;
 }
 
 strong, b {
@@ -2384,12 +2384,21 @@ input[type=button]:disabled,
 #about h1, #about h2, #about h3, #about h4, #about h5, #about h6 {
   color: #fff;
 }
+#about ul {
+  margin: 0 0 1em 0;
+}
+#about a {
+  color: #ffcdcd;
+}
+#about a:hover {
+  color: white !important;
+}
 
 /* Footer */
 #footer {
-  background: #222;
+  background: #940202;
   border-top: 0;
-  color: #c0c0c0;
+  color: #ffe8e8;
   overflow: hidden;
   padding: 2em 0;
 }
