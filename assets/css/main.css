@@ -1786,7 +1786,12 @@ input[type=radio] + label:before {
   height: 20em;
   border-radius: 0;
 }
-.image.main img {
+.image.secondary {
+  display: block;
+  height: 10em;
+  border-radius: 0;
+}
+.image.main img, .image.secondary img {
   border-radius: 0;
 }
 
@@ -2440,6 +2445,9 @@ input[type=button]:disabled,
   .image.main {
     height: 20em;
   }
+  .image.secondary {
+    height: 10em;
+  }
 
   /* Header */
   #header {
@@ -2603,6 +2611,9 @@ input[type=button]:disabled,
   }
   .image.main {
     height: 12em;
+  }
+  .image.secondary {
+    height: 6em;
   }
 
   /* Section/Article */
