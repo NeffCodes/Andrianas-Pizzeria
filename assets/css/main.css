@@ -1816,10 +1816,6 @@ input[type=radio] + label:before {
   border-radius: 0;
 }
 
-.image.fixed-height {
-
-}
-
 /* List */
 ol {
   list-style: decimal;
