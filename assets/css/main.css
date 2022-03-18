@@ -1379,6 +1379,16 @@ section.special, article.special {
   text-align: center;
 }
 
+.cost {
+  color: #940202;
+  margin-left: 0.5em;
+  font-size: 0.9em;
+  font-weight: 800;
+}
+h4 span.cost {
+  font-size: 0.7em;;
+}
+
 header p {
   color: #aaa;
   position: relative;
