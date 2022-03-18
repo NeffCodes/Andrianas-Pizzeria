@@ -5,6 +5,22 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1791,8 +1807,17 @@ input[type=radio] + label:before {
   height: 10em;
   border-radius: 0;
 }
+.image.about-img {
+  display: block;
+  border-radius:0;
+  height: 20em;
+}
 .image.main img, .image.secondary img {
   border-radius: 0;
+}
+
+.image.fixed-height {
+
 }
 
 /* List */
@@ -2230,7 +2255,7 @@ input[type=button]:disabled,
   -ms-justify-content: space-between;
   justify-content: space-between;
   background: #940202;
-  color: #d2f2e9;
+  color: #f2d2d2;
   height: 100%;
   overflow-y: auto;
   position: fixed;
@@ -2249,7 +2274,7 @@ input[type=button]:disabled,
   color: #eab7b7;
 }
 #header a {
-  color: #d2f2e9;
+  color: #f2d2d2;
 }
 #header a:hover {
   color: #ffffff !important;
@@ -2271,7 +2296,7 @@ input[type=button]:disabled,
   margin: 0;
 }
 #header > header p {
-  color: #d2f2e9;
+  color: #f2d2d2;
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2341,6 +2366,15 @@ input[type=button]:disabled,
 }
 #main > section:first-child {
   border-top: 0;
+}
+
+/* About Us */
+#about {
+  color: #fff;
+  background: #940202;
+}
+#about h1, #about h2, #about h3, #about h4, #about h5, #about h6 {
+  color: #fff;
 }
 
 /* Footer */
