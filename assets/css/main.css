@@ -1942,6 +1942,9 @@ ul.feature-icons li {
   vertical-align: top;
   width: 48%;
 }
+ul.feature-icons li.full {
+  width: 100%;
+}
 ul.feature-icons li:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1983,6 +1986,14 @@ ul.icons li:last-child {
 }
 ul.icons li .icon:before {
   font-size: 1.25em;
+}
+ul .icon.list-1::before {
+  content: '1';
+  font-family: "Lato", sans-serif;
+}
+ul .icon.list-2::before {
+  content: '2';
+  font-family: "Lato", sans-serif;
 }
 
 /* Table */
