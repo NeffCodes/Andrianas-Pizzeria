@@ -184,7 +184,7 @@ h4 {
   line-height: 1.5em;
 }
 
-h5 {
+h5, h4.small-text {
   font-size: 0.9em;
   line-height: 1.5em;
 }
