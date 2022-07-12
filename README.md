@@ -11,7 +11,7 @@
 
 ---
 
-This is a design mockup to display the menu for a local pizzeria restaurant. The mockup includes a section to allow users to be able to submit and vote on what toppings they would like available when building their own pizza.
+This is a design prototype to display the menu for a local pizzeria restaurant. It includes a section to allow users to be able to submit and vote on what toppings they would like available when building their own pizza.
 
 **See it live:** [https://andrianas-pizza.netlify.app/](https://andrianas-pizza.netlify.app/)
 
